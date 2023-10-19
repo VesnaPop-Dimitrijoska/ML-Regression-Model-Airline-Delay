@@ -9,9 +9,9 @@ Machine Learning Regression Model on Airline Delay dataset.
   3. Data Preprocessing 
   4. Data Engineering
   5. Model Training
-  6. Model Optimization
+  6. Model Hyperparameter Optimization
   7. Model Evaluation
-  8. Conclusion from EDA and preprocessing
+  8. Conclusion and deatiled explanation of the steps
   9. Results
   10. Recommendations for future improvement
 #
