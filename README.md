@@ -21,8 +21,6 @@ Since there were 5 delay columns I decided to combine them into one column by ad
 
 Features in Airline Delay dataset:
 
-https://www.kaggle.com/datasets/giovamata/airlinedelaycauses/
-
 1.	Year 2008
 2.	Month 1-12
 3.	DayofMonth 1-31
