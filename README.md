@@ -16,10 +16,12 @@ Machine Learning Regression Model on Airline Delay dataset.
   10. Recommendations for future improvement
 #
 # Project Description:
-Creating regression models with a pipeline and hyperparameter optimization using (Baseline models, TPOT, Random search, Grid search).
+Project is using Data Preprocessing, Exploratory Data Analysis, Regression modeling with a pipeline and hyperparameter optimization using Baseline models, TPOT, Random search and Grid search. Airline Delay dataset was taken from Kaggle: https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
 Since there were 5 delay columns I decided to combine them into one column by adding them up. This is the new target.
 
 Features in Airline Delay dataset:
+
+https://www.kaggle.com/datasets/giovamata/airlinedelaycauses/
 
 1.	Year 2008
 2.	Month 1-12
