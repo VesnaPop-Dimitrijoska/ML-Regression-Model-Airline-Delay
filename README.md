@@ -17,6 +17,7 @@ Machine Learning Regression Model on Airline Delay dataset.
 #
 # Project Description:
 Creating regression models with a pipeline and hyperparameter optimization using (Baseline models, TPOT, Random search, Grid search).
+Since there were 5 delay columns I decided to combine them into one column by adding them up. This is the new target.
 
 Features in Airline Delay dataset:
 
@@ -156,20 +157,16 @@ This model has the lowest performance among all the models evaluated.
 
 ## 2) Model Hyperparameter Optimization with Random Search: 
 
-
 #### Version I - Dataset WITHOUT Log transformation on target class
 RandomForestRegressor() once again performed the best. 
 
 #### Version II - Dataset WITH Log transformation on target class
-![image-3.png](attachment:image-3.png)   
+There is a slight improvement in Random Forest, but other models are way worst than in previous case.
 
 #### Version III - Dataset WITHOUT Log transformation on target class and Additional Deletation on correlated colums
 RandomForestRegressor() performed the best. KNN has also high score in this model.
 
 #### Version IV - Dataset WITHOUT Log transformation on target class and Delay Substraction
-![image-13.png](attachment:image-13.png)
-
-**CONCLUSION:**   
 Unlike Baseline model who has the lowest performance on this dataset, Random Forest performed excelent. Even KNN has high score. 
 
 ---
@@ -217,10 +214,3 @@ By addressing all of these areas, we aim to further enhance the accuracy and rel
 MIT License
 #
 
-# Instructions
-1. Read the data.
-2. Combine the delay columns into one column by adding them up. This is the new target.
-3. Preprocess, clean the data.
-4. Use EDA techniques to analyze the data.
-5. Create regression models with a pipeline and some sort of hyperparameter optimization (TPOT, Random search, grid search)
-6. Showcase the best variant of each algorithm in a table
