@@ -16,7 +16,9 @@ Machine Learning Regression Model on Airline Delay dataset.
   10. Recommendations for future improvement
 #
 # Project Description:
-The following project is Machine Learning Regression Model on Airline Delay dataset. I'm using Exploratory Data Analysis, preprocessing and engineering techniques to prepare data for modeling. I'm using Regression models with pipeline and hyperparameter optimization. I'm comaparing Baseline models with TPOT, Random search and Grid search optimization techniques. Airline Delay dataset was taken from Kaggle: https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
+The following project is Machine Learning Regression Model on Airline Delay dataset. I'm using Exploratory Data Analysis, preprocessing and engineering techniques to prepare data for modeling. I'm using Regression models with pipeline. I'm training Baseline models, models with Random search and Grid search optimization techniques and also tool that optimizes machine learning pipelines using genetic programming like TPOT.     
+
+Airline Delay dataset was taken from Kaggle: https://www.kaggle.com/datasets/giovamata/airlinedelaycauses
 
 There were 5 delay columns which I combined into one column by adding them up. This is the new target.
 
