@@ -177,15 +177,13 @@ Unlike Baseline model who has the lowest performance on this dataset, Random For
 ## 3) Model Hyperparameter Optimization with Grid Search: 
 
 #### Version I - Dataset WITHOUT Log transformation on target class
-The result is worse than all other models: Baseline models, Grid Search and TPOT optimization. I only managed to test GRID Search on only 1% of the dataset. I wasn't able to test it on whole dataset, not even on 10% of the dataset, because it took more than 8 hours for 10% od the dataset and it still wasn't finished so I terminated the program.
-I think that maybe smaller result compared to other optimization models is consequence of the small dataset that was tested.
+The result is worse than all other models: Baseline models, Grid Search and TPOT optimization
 
 ---
 
 ## 4) Model Hyperparameter Optimization with TPOT (Genetic optimization algorithms) : 
 #### Version I - Dataset WITHOUT Log transformation on target class 
-The result is worse than Baseline models, but I only managed to test TPOT on 10% of the dataset. I wasn't able to test it on whole dataset, because it took more than 12 hours and it still wasn't finished so I terminated the program.
-
+The result is worse than Baseline models.
 ---
 
 #####
